@@ -1,0 +1,9 @@
+program 1
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+
+output
+['honda', 'yamaha', 'suzuki']
+['ducati', 'yamaha', 'suzuki']
