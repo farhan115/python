@@ -18,3 +18,14 @@ print(motorcycles)
 output
 ['honda', 'yamaha', 'suzuki']
 ['honda', 'yamaha', 'suzuki', 'ducati']
+
+program 3
+
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+
+output
+['honda', 'yamaha', 'suzuki']
