@@ -1,0 +1,20 @@
+program 1
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+
+output
+['honda', 'yamaha', 'suzuki']
+
+
+program 2
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
+
+
+output
+['honda', 'yamaha', 'suzuki']
+['honda', 'yamaha', 'suzuki', 'ducati']
