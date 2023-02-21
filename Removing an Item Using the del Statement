@@ -1,0 +1,10 @@
+program 1
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+
+output
+['honda', 'yamaha', 'suzuki']
+['yamaha', 'suzuki']
