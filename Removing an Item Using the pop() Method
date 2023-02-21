@@ -10,3 +10,14 @@ output
 ['honda', 'yamaha', 'suzuki']
 ['honda', 'yamaha']
 suzuki
+
+
+program 2
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+last_owned = motorcycles.pop()
+print("The last motorcycle I owned was a " + last_owned.title() + ".")
+
+output
+The last motorcycle I owned was a Suzuki.
+
