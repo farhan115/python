@@ -29,3 +29,14 @@ print(motorcycles)
 
 output
 ['honda', 'yamaha', 'suzuki']
+
+program 2
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[1]
+print(motorcycles)
+
+output
+['honda', 'yamaha', 'suzuki']
+['honda', 'suzuki']
