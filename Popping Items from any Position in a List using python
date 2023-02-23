@@ -12,3 +12,12 @@ my_list = ['apple', 'banana', 'cherry', 'orange']
 popped_item = my_list.pop(-2)  # removes and returns the second last item (cherry)
 print(my_list)  # output: ['apple', 'banana', 'orange']
 print(popped_item)  # output: 'cherry'
+
+
+program 3
+
+first_owned = motorcycles.pop(0)
+print('The first motorcycle I owned was a ' + first_owned.title() + '.')
+#output  The first motorcycle I owned was a Honda.
+        
+
