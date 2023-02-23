@@ -1,0 +1,14 @@
+program 1
+
+my_list = ['apple', 'banana', 'cherry', 'orange']
+popped_item = my_list.pop(1)  # removes and returns the item at index 1 (banana)
+print(my_list)  # output: ['apple', 'cherry', 'orange']
+print(popped_item)  # output: 'banana'
+
+
+program 2
+
+my_list = ['apple', 'banana', 'cherry', 'orange']
+popped_item = my_list.pop(-2)  # removes and returns the second last item (cherry)
+print(my_list)  # output: ['apple', 'banana', 'orange']
+print(popped_item)  # output: 'cherry'
