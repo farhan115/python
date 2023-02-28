@@ -1,0 +1,45 @@
+program 1
+
+# Create a list of guests
+guests = ['Isaac Newton', 'Elon Musk', 'Charles Darwin', 'Marie Curie', 'Nelson Mandela', 'Jane Austen']
+
+# Print an invitation message to each guest
+for guest in guests:
+    print("Dear " + guest + ", you are cordially invited to dinner at my place.")
+
+# Inform people that only two guests can be invited
+print("\nUnfortunately, my new dinner table won't arrive in time for the dinner, and I can only invite two people.")
+
+# Use pop() to remove guests from the list one at a time
+while len(guests) > 2:
+    removed_guest = guests.pop()
+    print("Dear " + removed_guest + ", I'm sorry to inform you that I can't invite you to dinner.")
+
+# Print a message to each of the two people still on the list
+for guest in guests:
+    print("Dear " + guest + ", you are still cordially invited to dinner at my place.")
+
+# Use del to remove the last two names from the list
+del guests[0]
+del guests[0]
+
+# Print the list to make sure it's empty
+print(guests)  # Output: []
+
+
+output
+Dear Isaac Newton, you are cordially invited to dinner at my place.
+Dear Elon Musk, you are cordially invited to dinner at my place.
+Dear Charles Darwin, you are cordially invited to dinner at my place.
+Dear Marie Curie, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are cordially invited to dinner at my place.
+Dear Jane Austen, you are cordially invited to dinner at my place.
+
+Unfortunately, my new dinner table won't arrive in time for the dinner, and I can only invite two people.
+Dear Jane Austen, I'm sorry to inform you that I can't invite you to dinner.
+Dear Nelson Mandela, I'm sorry to inform you that I can't invite you to dinner.
+Dear Marie Curie, I'm sorry to inform you that I can't invite you to dinner.
+Dear Charles Darwin, I'm sorry to inform you that I can't invite you to dinner.
+Dear Isaac Newton, you are still cordially invited to dinner at my place.
+Dear Elon Musk, you are still cordially invited to dinner at my place.
+[]
