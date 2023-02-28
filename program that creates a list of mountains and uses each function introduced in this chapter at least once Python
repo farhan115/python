@@ -1,0 +1,52 @@
+Program 1
+
+# Create a list of mountains
+mountains = ['Mount Everest', 'K2', 'Kangchenjunga', 'Lhotse', 'Makalu']
+
+# Print the list
+print(mountains)
+
+# Access an item by index and print it
+print(mountains[2])
+
+# Append a new mountain to the list and print it
+mountains.append('Cho Oyu')
+print(mountains)
+
+# Insert a new mountain at a specific position and print it
+mountains.insert(1, 'Dhaulagiri')
+print(mountains)
+
+# Remove a mountain from the list by value and print it
+mountains.remove('K2')
+print(mountains)
+
+# Remove the last mountain from the list and print it
+last_mountain = mountains.pop()
+print(last_mountain)
+print(mountains)
+
+# Sort the list and print it
+mountains.sort()
+print(mountains)
+
+# Reverse the list and print it
+mountains.reverse()
+print(mountains)
+
+# Find the length of the list and print it
+num_mountains = len(mountains)
+print(num_mountains)
+
+
+output
+['Mount Everest', 'K2', 'Kangchenjunga', 'Lhotse', 'Makalu']
+Kangchenjunga
+['Mount Everest', 'K2', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu']
+['Mount Everest', 'Dhaulagiri', 'K2', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu']
+['Mount Everest', 'Dhaulagiri', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu']
+Cho Oyu
+['Mount Everest', 'Dhaulagiri', 'Kangchenjunga', 'Lhotse', 'Makalu']
+['Dhaulagiri', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Mount Everest']
+['Mount Everest', 'Makalu', 'Lhotse', 'Kangchenjunga', 'Dhaulagiri']
+5
