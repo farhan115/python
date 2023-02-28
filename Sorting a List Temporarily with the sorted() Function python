@@ -1,0 +1,15 @@
+program 1
+
+fruits = ['apple', 'banana', 'orange', 'pear']
+sorted_fruits = sorted(fruits)
+print(sorted_fruits)  # Output: ['apple', 'banana', 'orange', 'pear']
+print(fruits)         # Output: ['apple', 'banana', 'orange', 'pear']
+
+reverse_sorted_fruits = sorted(fruits, reverse=True)
+print(reverse_sorted_fruits)  # Output: ['pear', 'orange', 'banana', 'apple']
+
+
+output
+['apple', 'banana', 'orange', 'pear']
+['apple', 'banana', 'orange', 'pear']
+['pear', 'orange', 'banana', 'apple']
