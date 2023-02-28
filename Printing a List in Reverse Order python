@@ -1,0 +1,18 @@
+program 1
+
+fruits = ['apple', 'banana', 'orange', 'pear']
+fruits.reverse()
+print(fruits)  # Output: ['pear', 'orange', 'banana', 'apple']
+
+output
+['pear', 'orange', 'banana', 'apple']
+
+
+program 2
+
+fruits = ['apple', 'banana', 'orange', 'pear']
+reverse_fruits = fruits[::-1]
+print(reverse_fruits)  # Output: ['pear', 'orange', 'banana', 'apple']
+
+output
+['pear', 'orange', 'banana', 'apple']
