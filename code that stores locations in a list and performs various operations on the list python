@@ -1,0 +1,47 @@
+program 1
+
+# Store locations in a list
+locations = ['Paris', 'Tokyo', 'Sydney', 'New York', 'Barcelona']
+
+# Print the list in its original order
+print(locations)
+
+# Print the list in alphabetical order using sorted()
+print(sorted(locations))
+
+# Print the list to show that it's still in its original order
+print(locations)
+
+# Print the list in reverse alphabetical order using sorted()
+print(sorted(locations, reverse=True))
+
+# Print the list to show that it's still in its original order
+print(locations)
+
+# Change the order of the list using reverse()
+locations.reverse()
+print(locations)
+
+# Change the order of the list again using reverse()
+locations.reverse()
+print(locations)
+
+# Change the order of the list to alphabetical using sort()
+locations.sort()
+print(locations)
+
+# Change the order of the list to reverse alphabetical using sort()
+locations.sort(reverse=True)
+print(locations)
+
+
+output
+['Paris', 'Tokyo', 'Sydney', 'New York', 'Barcelona']
+['Barcelona', 'New York', 'Paris', 'Sydney', 'Tokyo']
+['Paris', 'Tokyo', 'Sydney', 'New York', 'Barcelona']
+['Tokyo', 'Sydney', 'Paris', 'New York', 'Barcelona']
+['Paris', 'Tokyo', 'Sydney', 'New York', 'Barcelona']
+['Barcelona', 'New York', 'Sydney', 'Tokyo', 'Paris']
+['Paris', 'Tokyo', 'Sydney', 'New York', 'Barcelona']
+['Barcelona', 'New York', 'Paris', 'Sydney', 'Tokyo']
+['Tokyo', 'Sydney', 'Paris', 'New York', 'Barcelona']
