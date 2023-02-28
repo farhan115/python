@@ -1,0 +1,7 @@
+program 1
+
+fruits = ['apple', 'banana', 'orange', 'pear']
+print(len(fruits))  # Output: 4
+
+output
+4
