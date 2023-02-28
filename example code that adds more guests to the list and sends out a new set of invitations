@@ -1,0 +1,38 @@
+# Create a list of guests
+guests = ['Elon Musk', 'Marie Curie', 'Nelson Mandela']
+
+# Print an invitation message to each guest
+print("Dear " + guests[0] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[1] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[2] + ", you are cordially invited to dinner at my place.")
+
+# Inform people that a bigger dinner table has been found
+print("\nGood news! I found a bigger dinner table.")
+
+# Add three more guests to the list
+guests.insert(0, 'Isaac Newton')  # Add Isaac Newton to the beginning of the list
+guests.insert(2, 'Charles Darwin')  # Add Charles Darwin to the middle of the list
+guests.append('Jane Austen')  # Add Jane Austen to the end of the list
+
+# Print a new invitation message to each guest
+print("\nDear " + guests[0] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[1] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[2] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[3] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[4] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[5] + ", you are cordially invited to dinner at my place.")
+
+
+output
+Dear Elon Musk, you are cordially invited to dinner at my place.
+Dear Marie Curie, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are cordially invited to dinner at my place.
+
+Good news! I found a bigger dinner table.
+
+Dear Isaac Newton, you are cordially invited to dinner at my place.
+Dear Elon Musk, you are cordially invited to dinner at my place.
+Dear Charles Darwin, you are cordially invited to dinner at my place.
+Dear Marie Curie, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are cordially invited to dinner at my place.
+Dear Jane Austen, you are cordially invited to dinner at my place.
