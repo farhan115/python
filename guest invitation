@@ -1,0 +1,27 @@
+program 1
+guests = ['Albert Einstein', 'Marie Curie', 'Nelson Mandela']
+
+for guest in guests:
+    print("Dear {}, I would like to invite you to dinner at my place next Saturday.".format(guest))
+    
+    
+output
+Dear Albert Einstein, I would like to invite you to dinner at my place next Saturday.
+Dear Marie Curie, I would like to invite you to dinner at my place next Saturday.
+Dear Nelson Mandela, I would like to invite you to dinner at my place next Saturday.
+
+
+program 2
+# Create a list of guests
+guests = ['Elon Musk', 'Ada Lovelace', 'Nelson Mandela']
+
+# Print an invitation message to each guest
+print("Dear " + guests[0] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[1] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[2] + ", you are cordially invited to dinner at my place.")
+
+
+output
+Dear Elon Musk, you are cordially invited to dinner at my place.
+Dear Ada Lovelace, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are cordially invited to dinner at my place.
