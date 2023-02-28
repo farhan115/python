@@ -1,0 +1,11 @@
+program 1
+
+guests = ['Isaac Newton', 'Elon Musk', 'Charles Darwin', 'Marie Curie', 'Nelson Mandela']
+
+# Print the number of people invited to dinner
+num_guests = len(guests)
+print("I am inviting " + str(num_guests) + " people to dinner.")
+
+
+output
+I am inviting 5 people to dinner.
