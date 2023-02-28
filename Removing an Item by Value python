@@ -1,0 +1,3 @@
+my_list = ['apple', 'banana', 'orange', 'pear']
+my_list.remove('orange')  # Removes the item with value 'orange'
+print(my_list)  # Output: ['apple', 'banana', 'pear']
