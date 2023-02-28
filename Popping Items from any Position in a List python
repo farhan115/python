@@ -1,0 +1,4 @@
+my_list = ['apple', 'banana', 'orange', 'pear']
+orange = my_list.pop(2)  # Removes and returns the item at index 2 ('orange')
+print(my_list)  # Output: ['apple', 'banana', 'pear']
+print(orange)   # Output: 'orange'
