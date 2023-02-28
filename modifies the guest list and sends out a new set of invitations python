@@ -1,0 +1,31 @@
+program 1
+# Create a list of guests
+guests = ['Elon Musk', 'Ada Lovelace', 'Nelson Mandela']
+
+# Print an invitation message to each guest
+print("Dear " + guests[0] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[1] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[2] + ", you are cordially invited to dinner at my place.")
+
+# The guest 'Ada Lovelace' can't make it to the dinner
+print("\nUnfortunately, " + guests[1] + " can't make it to the dinner.")
+
+# Replace 'Ada Lovelace' with 'Marie Curie'
+guests[1] = 'Marie Curie'
+
+# Print a new invitation message to each guest
+print("\nDear " + guests[0] + ", you are still cordially invited to dinner at my place.")
+print("Dear " + guests[1] + ", you are cordially invited to dinner at my place.")
+print("Dear " + guests[2] + ", you are still cordially invited to dinner at my place.")
+
+
+output
+Dear Elon Musk, you are cordially invited to dinner at my place.
+Dear Ada Lovelace, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are cordially invited to dinner at my place.
+
+Unfortunately, Ada Lovelace can't make it to the dinner.
+
+Dear Elon Musk, you are still cordially invited to dinner at my place.
+Dear Marie Curie, you are cordially invited to dinner at my place.
+Dear Nelson Mandela, you are still cordially invited to dinner at my place.
