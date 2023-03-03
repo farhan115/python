@@ -1,0 +1,9 @@
+program 1
+
+myvar = None
+is_none = myvar is None
+print(f"The variable {myvar} is None: {is_none}")
+
+output
+
+The variable None is None: True
