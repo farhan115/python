@@ -1,0 +1,8 @@
+program 1
+
+mylist = []
+is_empty = not bool(mylist)
+print(f"The list {mylist} is empty: {is_empty}")
+
+output
+The list [] is empty: True
