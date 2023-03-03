@@ -1,0 +1,9 @@
+program 1
+
+num = 5
+is_positive = num > 0
+print(f"The number {num} is positive: {is_positive}")
+
+output
+
+The number 5 is positive: True
