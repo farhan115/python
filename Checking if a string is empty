@@ -1,0 +1,10 @@
+program 1
+
+mystr = ""
+is_empty = not bool(mystr)
+print(f"The string '{mystr}' is empty: {is_empty}")
+
+
+output
+
+The string '' is empty: True
