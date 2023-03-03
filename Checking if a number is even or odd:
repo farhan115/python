@@ -1,0 +1,9 @@
+program 1
+
+num = int(input("Enter a number: "))
+is_even = num % 2 == 0
+print(f"The number {num} is even: {is_even}")
+
+output
+Enter a number: 56
+The number 56 is even: True
