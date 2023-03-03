@@ -1,0 +1,10 @@
+program 1
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+has_common = any(elem in list2 for elem in list1)
+print(f"The two lists {list1} and {list2} have common elements: {has_common}")
+
+
+output
+The two lists [1, 2, 3, 4, 5] and [4, 5, 6, 7, 8] have common elements: True
