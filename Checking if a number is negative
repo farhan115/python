@@ -1,0 +1,9 @@
+program 1
+
+num = -5
+is_negative = num < 0
+print(f"The number {num} is negative: {is_negative}")
+
+output
+
+The number -5 is negative: True
