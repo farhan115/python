@@ -1,0 +1,12 @@
+program 1
+
+num = 10
+lower_limit = 0
+upper_limit = 20
+is_within_range = lower_limit <= num <= upper_limit
+print(f"The number {num} is within the range [{lower_limit}, {upper_limit}]: {is_within_range}")
+
+
+output
+
+The number 10 is within the range [0, 20]: True
