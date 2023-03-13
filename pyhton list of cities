@@ -1,0 +1,47 @@
+program 1
+
+# Create a list of cities
+cities = ['New York', 'London', 'Paris', 'Tokyo', 'Sydney']
+
+# Use the append() function to add a city to the end of the list
+cities.append('Rome')
+
+# Use the insert() function to add a city to a specific position in the list
+cities.insert(2, 'San Francisco')
+
+# Use the remove() function to remove a city from the list
+cities.remove('Paris')
+
+# Use the pop() function to remove and return the last city in the list
+last_city = cities.pop()
+
+# Use the sort() function to sort the list in alphabetical order
+cities.sort()
+
+# Use the reverse() function to reverse the order of the list
+cities.reverse()
+
+# Use the len() function to get the length of the list
+num_cities = len(cities)
+
+# Use a for loop to print each city in the list
+for city in cities:
+    print(city)
+
+# Print the last city that was removed using pop()
+print(f"The last city removed was {last_city}.")
+
+# Print the length of the list using len()
+print(f"There are {num_cities} cities in the list.")
+
+
+output
+
+Sydney
+Tokyo
+San Francisco
+New York
+London
+Rome
+The last city removed was Paris.
+There are 6 cities in the list.
