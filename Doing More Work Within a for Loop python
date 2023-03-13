@@ -1,0 +1,12 @@
+program 1
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+print(magician.title() + ", that was a great trick!")
+
+
+output
+
+Alice, that was a great trick!
+David, that was a great trick!
+Carolina, that was a great trick!
