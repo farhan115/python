@@ -1,0 +1,47 @@
+program 1
+
+# Define the list of places to visit
+places_to_visit = ['Tokyo', 'New York', 'Sydney', 'Rio de Janeiro', 'Amsterdam']
+
+# Print the list in its original order
+print(places_to_visit)
+
+# Print the sorted list in alphabetical order without modifying the original list
+print(sorted(places_to_visit))
+
+# Show that the original list is still in its original order
+print(places_to_visit)
+
+# Print the sorted list in reverse alphabetical order without modifying the original list
+print(sorted(places_to_visit, reverse=True))
+
+# Show that the original list is still in its original order
+print(places_to_visit)
+
+# Reverse the order of the list and print it
+places_to_visit.reverse()
+print(places_to_visit)
+
+# Reverse the order of the list again to get back to its original order
+places_to_visit.reverse()
+print(places_to_visit)
+
+# Sort the list in alphabetical order and print it
+places_to_visit.sort()
+print(places_to_visit)
+
+# Sort the list in reverse alphabetical order and print it
+places_to_visit.sort(reverse=True)
+print(places_to_visit)
+
+
+output
+
+['Tokyo', 'New York', 'Sydney', 'Rio de Janeiro', 'Amsterdam']
+['Amsterdam', 'New York', 'Rio de Janeiro', 'Sydney', 'Tokyo']
+['Tokyo', 'New York', 'Sydney', 'Rio de Janeiro', 'Amsterdam']
+['Tokyo', 'Sydney', 'Rio de Janeiro', 'New York', 'Amsterdam']
+['Tokyo', 'New York', 'Sydney', 'Rio de Janeiro', 'Amsterdam']
+['Amsterdam', 'Rio de Janeiro', 'Sydney', 'New York', 'Tokyo']
+['Tokyo', 'New York', 'Rio de Janeiro', 'Sydney', 'Amsterdam']
+['Tokyo', 'Sydney', 'Rio de Janeiro', 'New York', 'Amsterdam']
