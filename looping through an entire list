@@ -1,0 +1,11 @@
+program 1
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+print(magician)
+
+output
+
+alice
+david
+carolina
