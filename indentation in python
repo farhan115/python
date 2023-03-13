@@ -1,0 +1,17 @@
+program 1
+
+Indentation is a way of visually grouping code in Python by using whitespace (usually spaces or tabs) at the beginning of a line. In Python, indentation is used to define the structure and hierarchy of the code, rather than using curly braces or other syntax elements that some other programming languages use.
+
+Indentation is particularly important in Python because it is used to define the scope of functions, classes, loops, conditionals, and other control structures. The amount of indentation used is consistent within a given block of code, and is usually either four spaces or one tab per level of indentation.
+
+For example, consider the following code that defines a function:
+
+def say_hello(name):
+    if name == "Alice":
+        print("Hello, Alice!")
+    else:
+        print("Hello, stranger!")
+        
+The function definition begins with the keyword def followed by the function name and a set of parentheses. The body of the function is indented to indicate that it is a block of code that belongs to the function. In this case, the body of the function contains an if statement, which also has an indented block of code that is executed if the condition is true.
+
+It's important to note that in Python, indentation is not just a matter of style; it's a part of the language syntax. Incorrect indentation can lead to syntax errors and cause the program to behave unexpectedly.
