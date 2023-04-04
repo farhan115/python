@@ -1,0 +1,21 @@
+program
+
+# Create a list of multiples of 3 from 3 to 30
+multiples_of_3 = [num for num in range(3, 31) if num % 3 == 0]
+
+# Use a for loop to print each number in the list
+for num in multiples_of_3:
+    print(num)
+    
+output
+
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
