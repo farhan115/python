@@ -1,0 +1,11 @@
+program
+
+# Use a list comprehension to generate a list of the first 10 cubes
+cubes = [num ** 3 for num in range(1, 11)]
+
+# Print the list of cubes
+print(cubes)
+
+output
+
+[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
