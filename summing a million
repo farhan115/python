@@ -1,0 +1,18 @@
+program
+
+# Generate a sequence of numbers from 1 to 1000000 using range() function
+nums = range(1, 1000001)
+
+# Use min() and max() functions to check the range of the sequence
+print("Minimum number:", min(nums))
+print("Maximum number:", max(nums))
+
+# Use sum() function to calculate the sum of the sequence
+total = sum(nums)
+print("Sum of numbers:", total)
+
+output
+
+Minimum number: 1
+Maximum number: 1000000
+Sum of numbers: 500000500000
