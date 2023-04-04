@@ -1,0 +1,32 @@
+program
+
+# Store three favorite pizza names in a list
+pizzas = ['Margherita', 'Pepperoni', 'Hawaiian']
+
+# Print each pizza name using a for loop
+print("My favorite pizzas are:")
+for pizza in pizzas:
+    print(pizza)
+
+# Print a sentence about each pizza using the pizza name
+print("\nI really like these pizzas:")
+for pizza in pizzas:
+    print("I like " + pizza + " pizza.")
+
+# Print a final statement about loving pizza
+print("\nPizza is my favorite food. I really love it!")
+
+
+output
+
+My favorite pizzas are:
+Margherita
+Pepperoni
+Hawaiian
+
+I really like these pizzas:
+I like Margherita pizza.
+I like Pepperoni pizza.
+I like Hawaiian pizza.
+
+Pizza is my favorite food. I really love it!
