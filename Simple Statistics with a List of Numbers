@@ -1,0 +1,34 @@
+program
+
+# Define a list of numbers
+numbers = [5, 8, 12, 6, 9, 4, 7]
+
+# Calculate the length of the list
+length = len(numbers)
+
+# Calculate the sum of the numbers in the list
+total = sum(numbers)
+
+# Calculate the mean (average) of the numbers in the list
+mean = total / length
+
+# Calculate the maximum and minimum values in the list
+maximum = max(numbers)
+minimum = min(numbers)
+
+# Print the results
+print("Numbers:", numbers)
+print("Length:", length)
+print("Total:", total)
+print("Mean:", mean)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
+
+output
+
+Numbers: [5, 8, 12, 6, 9, 4, 7]
+Length: 7
+Total: 51
+Mean: 7.285714285714286
+Maximum: 12
+Minimum: 4
