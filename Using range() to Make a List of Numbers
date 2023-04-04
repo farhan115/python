@@ -1,0 +1,19 @@
+program
+
+# Create a list of even numbers from 2 to 10 using range() function with step size 2
+even_nums = list(range(2, 11, 2))
+print(even_nums)
+
+# Create a list of odd numbers from 1 to 9 using range() function with step size 2
+odd_nums = list(range(1, 10, 2))
+print(odd_nums)
+
+# Create a list of squares of numbers from 1 to 5 using range() function
+squares = [num*num for num in range(1, 6)]
+print(squares)
+
+output
+
+[2, 4, 6, 8, 10]
+[1, 3, 5, 7, 9]
+[1, 4, 9, 16, 25]
