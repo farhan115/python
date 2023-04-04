@@ -1,0 +1,32 @@
+program
+
+# Store three animals with a common characteristic in a list
+animals = ['dog', 'cat', 'rabbit']
+
+# Print each animal name using a for loop
+print("These animals have a common characteristic:")
+for animal in animals:
+    print(animal)
+
+# Print a sentence about each animal using the animal name
+print("\nEach of these animals would make a great pet:")
+for animal in animals:
+    print("A " + animal + " would make a great pet.")
+
+# Print a final statement about the common characteristic
+print("\nAny of these animals would make a great pet!")
+
+
+output
+
+These animals have a common characteristic:
+dog
+cat
+rabbit
+
+Each of these animals would make a great pet:
+A dog would make a great pet.
+A cat would make a great pet.
+A rabbit would make a great pet.
+
+Any of these animals would make a great pet!
