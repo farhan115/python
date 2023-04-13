@@ -1,0 +1,16 @@
+code
+
+# Define variables for the user's age and gender
+age = 25
+gender = 'male'
+
+# Use the and keyword to check if the user is a young male
+if age < 30 and gender == 'male':
+    print("You are a young male.")
+else:
+    print("You are not a young male.")
+
+
+output
+
+You are a young male.
