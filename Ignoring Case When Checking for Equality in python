@@ -1,0 +1,16 @@
+code
+
+# Define a variable for the user's favorite color
+favorite_color = 'Blue'
+
+# Use the lower() method to convert the user's input to lowercase,
+# and then check if it is equal to 'blue' (also in lowercase)
+if favorite_color.lower() == 'blue':
+    print("Your favorite color is blue!")
+else:
+    print("Your favorite color is not blue.")
+
+
+output
+
+Your favorite color is blue!
