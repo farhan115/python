@@ -1,0 +1,13 @@
+code
+
+# Define a variable for the user's age
+age = 16
+
+# Use an if statement to check if the user is too young to vote
+if age != 18:
+    print("You are not old enough to vote yet.")
+
+
+output
+
+You are not old enough to vote yet.
