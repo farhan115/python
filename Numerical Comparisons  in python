@@ -1,0 +1,17 @@
+code
+
+# Define a variable for the user's age
+age = 20
+
+# Use numerical comparisons to check if the user is a teenager or an adult
+if age < 13:
+    print("You are a child.")
+elif age < 20:
+    print("You are a teenager.")
+else:
+    print("You are an adult.")
+
+
+output
+
+You are an adult.
