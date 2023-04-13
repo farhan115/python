@@ -1,0 +1,15 @@
+code
+
+# Define a tuple of colors
+colors = ('red', 'green', 'blue')
+
+# Loop through the tuple and print each color
+for color in colors:
+    print(color)
+
+
+output
+
+red
+green
+blue
