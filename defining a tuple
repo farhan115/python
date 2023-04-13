@@ -1,0 +1,12 @@
+code
+
+# Define a tuple of fruits
+fruits = ('apple', 'banana', 'cherry')
+
+# Print the tuple to the console
+print(fruits)
+
+
+output
+
+('apple', 'banana', 'cherry')
