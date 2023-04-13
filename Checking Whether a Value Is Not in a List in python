@@ -1,0 +1,21 @@
+code
+
+# Define a list of fruits
+fruits = ['apple', 'banana', 'orange', 'kiwi', 'strawberry']
+
+# Use the "not in" keyword to check if a value is not in the list
+if 'banana' not in fruits:
+    print("Banana is not in the list.")
+else:
+    print("Banana is in the list!")
+    
+if 'grape' not in fruits:
+    print("Grape is not in the list.")
+else:
+    print("Grape is in the list!")
+
+
+output
+
+Banana is in the list!
+Grape is not in the list.
