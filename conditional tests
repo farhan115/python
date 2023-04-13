@@ -1,0 +1,68 @@
+code
+
+# Define a variable for the user's age
+age = 25
+
+# Test 1: Is age less than 30?
+print("Is age less than 30? I predict True.")
+print(age < 30)
+
+# Test 2: Is age greater than or equal to 30?
+print("Is age greater than or equal to 30? I predict False.")
+print(age >= 30)
+
+# Test 3: Is age exactly equal to 25?
+print("Is age exactly equal to 25? I predict True.")
+print(age == 25)
+
+# Test 4: Is age not equal to 25?
+print("Is age not equal to 25? I predict False.")
+print(age != 25)
+
+# Test 5: Is age between 20 and 30?
+print("Is age between 20 and 30? I predict True.")
+print(age > 20 and age < 30)
+
+# Test 6: Is age less than 20 or greater than 30?
+print("Is age less than 20 or greater than 30? I predict False.")
+print(age < 20 or age > 30)
+
+# Test 7: Is age less than or equal to 25?
+print("Is age less than or equal to 25? I predict True.")
+print(age <= 25)
+
+# Test 8: Is age greater than 25?
+print("Is age greater than 25? I predict False.")
+print(age > 25)
+
+# Test 9: Is age even?
+print("Is age even? I predict False.")
+print(age % 2 == 0)
+
+# Test 10: Is age a multiple of 5?
+print("Is age a multiple of 5? I predict True.")
+print(age % 5 == 0)
+
+
+output
+
+Is age less than 30? I predict True.
+True
+Is age greater than or equal to 30? I predict False.
+False
+Is age exactly equal to 25? I predict True.
+True
+Is age not equal to 25? I predict False.
+False
+Is age between 20 and 30? I predict True.
+True
+Is age less than 20 or greater than 30? I predict False.
+False
+Is age less than or equal to 25? I predict True.
+True
+Is age greater than 25? I predict False.
+False
+Is age even? I predict False.
+False
+Is age a multiple of 5? I predict True.
+True
