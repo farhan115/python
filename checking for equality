@@ -1,0 +1,23 @@
+code
+
+# Define two variables for the user's favorite color and number
+favorite_color = 'blue'
+favorite_number = 7
+
+# Use equality operators to check if the user's favorite color and number
+# are equal to certain values, and print messages accordingly
+if favorite_color == 'blue':
+    print("Your favorite color is blue!")
+else:
+    print("Your favorite color is not blue.")
+
+if favorite_number == 7:
+    print("Your favorite number is 7!")
+else:
+    print("Your favorite number is not 7.")
+
+
+output
+
+Your favorite color is blue!
+Your favorite number is 7!
