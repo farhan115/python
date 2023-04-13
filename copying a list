@@ -1,0 +1,20 @@
+code
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Copy the list using slicing
+numbers_copy = numbers[:]
+
+# Change an element in the original list
+numbers[0] = 10
+
+# Print the original list and the copy
+print("Original list: ", numbers)
+print("Copied list: ", numbers_copy)
+
+
+output
+
+Original list:  [10, 2, 3, 4, 5]
+Copied list:  [1, 2, 3, 4, 5]
