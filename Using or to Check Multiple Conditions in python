@@ -1,0 +1,17 @@
+code
+
+# Define variables for the user's age and gender
+age = 35
+gender = 'female'
+
+# Use the or keyword to check if the user is either a young person or a female
+if age < 30 or gender == 'female':
+    print("You are either a young person or a female.")
+else:
+    print("You are neither a young person nor a female.")
+
+
+output
+
+You are either a young person or a female.
+
