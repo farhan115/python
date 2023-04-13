@@ -1,0 +1,25 @@
+code
+
+# Define a tuple of fruits
+fruits = ('apple', 'banana', 'cherry')
+
+# Print the original tuple to the console
+print("Original tuple:", fruits)
+
+# Convert the tuple to a list
+fruits_list = list(fruits)
+
+# Modify the list by changing the second element
+fruits_list[1] = 'orange'
+
+# Convert the list back to a tuple
+fruits = tuple(fruits_list)
+
+# Print the modified tuple to the console
+print("Modified tuple:", fruits)
+
+
+output
+
+Original tuple: ('apple', 'banana', 'cherry')
+Modified tuple: ('apple', 'orange', 'cherry')
