@@ -1,0 +1,34 @@
+code
+
+# Define the lists of foods
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+
+# Add a new food to each list
+my_foods.append('ice cream')
+friend_foods.append('cheesecake')
+
+# Print the list of my favorite foods using a for loop
+print("My favorite foods are:")
+for food in my_foods:
+    print("- " + food)
+
+# Print the list of my friend's favorite foods using a for loop
+print("\nMy friend's favorite foods are:")
+for food in friend_foods:
+    print("- " + food)
+
+
+output
+
+My favorite foods are:
+- pizza
+- falafel
+- carrot cake
+- ice cream
+
+My friend's favorite foods are:
+- pizza
+- falafel
+- carrot cake
+- cheesecake
