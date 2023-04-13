@@ -1,0 +1,21 @@
+code
+
+# Define variables for the user's age and gender
+age = 25
+gender = 'male'
+
+# Use boolean expressions to check if the user is a young male
+is_young = age < 30
+is_male = gender == 'male'
+is_young_male = is_young and is_male
+
+# Use boolean expressions to check if the user is either a young person or a female
+is_young_person = age < 30
+is_female = gender == 'female'
+is_young_or_female = is_young_person or is_female
+
+# Use boolean expressions to check if a value is in a list
+fruits = ['apple', 'banana', 'orange', 'kiwi', 'strawberry']
+is_banana_in_list = 'banana' in fruits
+is_grape_in_list = 'grape' in fruits
+
