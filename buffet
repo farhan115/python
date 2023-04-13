@@ -1,0 +1,37 @@
+code
+
+# Define a tuple of foods
+foods = ('pizza', 'pasta', 'salad', 'bread', 'fruit')
+
+# Loop through the tuple and print each food
+print("Original menu:")
+for food in foods:
+    print("- " + food)
+
+# Try to modify one of the items (which Python will reject)
+#foods[0] = 'sushi'
+
+# Rewrite the tuple with new foods
+foods = ('sushi', 'ramen', 'salad', 'bread', 'cake')
+
+# Loop through the revised tuple and print each food
+print("\nRevised menu:")
+for food in foods:
+    print("- " + food)
+
+
+output
+
+Original menu:
+- pizza
+- pasta
+- salad
+- bread
+- fruit
+
+Revised menu:
+- sushi
+- ramen
+- salad
+- bread
+- cake
