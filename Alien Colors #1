@@ -1,0 +1,21 @@
+code
+
+# Assign a value to the variable
+alien_color = 'green'
+
+# Check if the alien's color is green
+if alien_color == 'green':
+    print("You just earned 5 points!")
+
+
+code
+
+# Assign a value to the variable
+alien_color = 'red'
+
+# Check if the alien's color is green
+if alien_color == 'green':
+    print("You just earned 5 points!")
+
+
+no output
