@@ -1,0 +1,44 @@
+code
+
+# Define a variable
+x = 5
+
+# Test 1: Is x equal to 5?
+print("Is x equal to 5? I predict True.")
+print(x == 5)
+
+# Test 2: Is x greater than 10?
+print("Is x greater than 10? I predict False.")
+print(x > 10)
+
+# Test 3: Is x less than or equal to 5?
+print("Is x less than or equal to 5? I predict True.")
+print(x <= 5)
+
+# Test 4: Is x not equal to 5?
+print("Is x not equal to 5? I predict False.")
+print(x != 5)
+
+# Test 5: Is x greater than or equal to 5 and less than or equal to 10?
+print("Is x between 5 and 10? I predict True.")
+print(x >= 5 and x <= 10)
+
+# Test 6: Is x less than 3 or greater than 7?
+print("Is x less than 3 or greater than 7? I predict False.")
+print(x < 3 or x > 7)
+
+# Test 7: Is x even?
+print("Is x even? I predict False.")
+print(x % 2 == 0)
+
+# Test 8: Is x a string?
+print("Is x a string? I predict False.")
+print(isinstance(x, str))
+
+# Test 9: Is x a positive number?
+print("Is x a positive number? I predict True.")
+print(x > 0)
+
+# Test 10: Is x a multiple of 3?
+print("Is x a multiple of 3? I predict False.")
+print(x % 3 == 0)
