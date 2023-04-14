@@ -1,0 +1,17 @@
+code
+
+# Define two variables
+x = 5
+y = 10
+
+# Test if x is greater than 2 and y is less than 20
+if x > 2 and y < 20:
+    print("Both conditions are True.")
+else:
+    print("At least one condition is False.")
+
+# Test if x is greater than 7 or y is less than 5
+if x > 7 or y < 5:
+    print("At least one condition is True.")
+else:
+    print("Both conditions are False.")
