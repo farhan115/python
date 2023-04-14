@@ -1,0 +1,20 @@
+code
+
+x = 5
+y = 7
+
+if x == y:
+    print("x and y are equal.")
+else:
+    print("x and y are not equal.")
+
+
+code
+
+x = 5
+y = 7
+
+if x != y:
+    print("x and y are not equal.")
+else:
+    print("x and y are equal.")
