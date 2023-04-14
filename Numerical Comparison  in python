@@ -1,0 +1,42 @@
+code
+
+x = 5
+y = 3
+
+if x > y:
+    print("x is greater than y.")
+else:
+    print("x is not greater than y.")
+
+
+code
+
+x = 5
+y = 3
+
+if x < y:
+    print("x is less than y.")
+else:
+    print("x is not less than y.")
+
+
+code
+
+x = 5
+y = 3
+
+if x >= y:
+    print("x is greater than or equal to y.")
+else:
+    print("x is not greater than or equal to y.")
+
+
+code
+
+x = 5
+y = 3
+
+if x <= y:
+    print("x is less than or equal to y.")
+else:
+    print("x is not less than or equal to y.")
