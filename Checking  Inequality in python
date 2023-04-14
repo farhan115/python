@@ -1,0 +1,20 @@
+code
+
+x = 5
+y = 7
+
+if x != y:
+    print("x is not equal to y.")
+else:
+    print("x is equal to y.")
+
+
+code
+
+x = 5
+y = 7
+
+if not x == y:
+    print("x is not equal to y.")
+else:
+    print("x is equal to y.")
