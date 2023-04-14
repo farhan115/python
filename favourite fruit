@@ -1,0 +1,16 @@
+code
+
+# Make a list of favorite fruits
+favorite_fruits = ['banana', 'mango', 'strawberry']
+
+# Check for certain fruits using independent if statements
+if 'banana' in favorite_fruits:
+    print("You really like bananas!")
+if 'apple' in favorite_fruits:
+    print("You really like apples!")
+if 'mango' in favorite_fruits:
+    print("You really like mangoes!")
+if 'watermelon' in favorite_fruits:
+    print("You really like watermelons!")
+if 'strawberry' in favorite_fruits:
+    print("You really like strawberries!")
