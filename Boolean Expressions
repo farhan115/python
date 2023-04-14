@@ -1,0 +1,27 @@
+code
+
+x = 5
+y = 7
+
+# Greater than
+print(x > y)   # False
+
+# Less than
+print(x < y)   # True
+
+# Greater than or equal to
+print(x >= y)  # False
+
+# Less than or equal to
+print(x <= y)  # True
+
+# Equal to
+print(x == y)  # False
+
+# Not equal to
+print(x != y)  # True
+
+# Boolean operators: and, or, not
+print(x < y and y < 10)  # True
+print(x > y or y > 10)   # False
+print(not x > y)         # True
