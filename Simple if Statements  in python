@@ -1,0 +1,20 @@
+code
+
+if condition:
+    statement(s)
+
+code
+# Define a variable
+x = 5
+
+# Check if x is equal to 5
+if x == 5:
+    print("x is equal to 5.")
+
+code
+# Define a variable
+x = 10
+
+# Check if x is greater than 5
+if x > 5:
+    print("x is greater than 5.")
