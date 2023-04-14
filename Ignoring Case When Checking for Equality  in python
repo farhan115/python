@@ -1,0 +1,20 @@
+code
+
+string1 = "Hello"
+string2 = "hello"
+
+if string1.lower() == string2.lower():
+    print("string1 and string2 are equal (ignoring case).")
+else:
+    print("string1 and string2 are not equal (ignoring case).")
+
+
+code
+
+string1 = "Hello"
+string2 = "hello"
+
+if string1.upper() == string2.upper():
+    print("string1 and string2 are equal (ignoring case).")
+else:
+    print("string1 and string2 are not equal (ignoring case).")
