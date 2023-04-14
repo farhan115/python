@@ -1,0 +1,10 @@
+code
+
+x = 5
+y = 7
+z = 3
+
+if x < y or y < z:
+    print("At least one of the conditions is true.")
+else:
+    print("Both conditions are false.")
