@@ -1,0 +1,21 @@
+code
+
+
+# Creating an empty dictionary using curly braces
+empty_dict1 = {}
+
+# Creating an empty dictionary using the dict() constructor
+empty_dict2 = dict()
+
+# Adding key-value pairs to the empty dictionary
+empty_dict1['key1'] = 'value1'
+empty_dict1['key2'] = 'value2'
+empty_dict1['key3'] = 'value3'
+
+print("empty_dict1:", empty_dict1)
+
+
+output
+
+empty_dict1: {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+
