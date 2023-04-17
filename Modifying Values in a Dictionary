@@ -1,0 +1,34 @@
+To modify values in a dictionary in Python, you can use the following syntax:
+
+python
+Copy code
+dictionary_name[key] = new_value
+Here's an example of modifying values in a dictionary:
+
+python
+Copy code
+# Creating a dictionary
+person = {
+    'first_name': 'John',
+    'last_name': 'Doe',
+    'age': 30,
+    'city': 'New York',
+}
+
+print("Original dictionary:", person)
+
+# Modifying values in the dictionary
+person['first_name'] = 'Jane'
+person['age'] = 28
+person['city'] = 'San Francisco'
+
+print("Modified dictionary:", person)
+Output:
+
+css
+Copy code
+Original dictionary: {'first_name': 'John', 'last_name': 'Doe', 'age': 30, 'city': 'New York'}
+Modified dictionary: {'first_name': 'Jane', 'last_name': 'Doe', 'age': 28, 'city': 'San Francisco'}
+In this example, we first create a dictionary called person with four key-value pairs. We then modify the values associated with the keys 'first_name', 'age', and 'city' using the syntax person[key] = new_value. Finally, we print the original and modified dictionaries to see the changes.
+
+You can modify the values of any key in a dictionary as needed. If the key is not present in the dictionary, the key-value pair will be added to the dictionary instead.
