@@ -1,0 +1,20 @@
+code
+
+names = ["John", "Alice", "Eve", "Bob", "Cathy"]
+
+special_names = ["Alice", "Bob"]
+
+for name in names:
+    if name in special_names:
+        print(f"{name} is a special name.")
+    else:
+        print(f"{name} is a regular name.")
+
+
+output
+
+John is a regular name.
+Alice is a special name.
+Eve is a regular name.
+Bob is a special name.
+Cathy is a regular name.
