@@ -1,0 +1,27 @@
+To add a new key-value pair to a dictionary in Python, you can use the following syntax:
+
+python
+Copy code
+dictionary_name[key] = value
+Here's an example of adding new key-value pairs to a dictionary:
+
+python
+Copy code
+# Creating an empty dictionary
+person = {}
+
+# Adding new key-value pairs
+person['first_name'] = 'John'
+person['last_name'] = 'Doe'
+person['age'] = 30
+person['city'] = 'New York'
+
+print(person)
+Output:
+
+arduino
+Copy code
+{'first_name': 'John', 'last_name': 'Doe', 'age': 30, 'city': 'New York'}
+In this example, we first create an empty dictionary called person. Then, we add new key-value pairs to the dictionary using the syntax person[key] = value. The keys are 'first_name', 'last_name', 'age', and 'city', and their corresponding values are 'John', 'Doe', 30, and 'New York'. Finally, we print the dictionary to see the added key-value pairs.
+
+You can add as many key-value pairs to a dictionary as needed, but remember that each key must be unique. If you use an existing key to add a new value, the old value associated with that key will be overwritten.
