@@ -1,0 +1,23 @@
+code
+
+# Creating a simple dictionary
+person = {
+    'first_name': 'John',
+    'last_name': 'Doe',
+    'age': 30,
+    'city': 'New York',
+}
+
+# Accessing values using keys
+print("First name:", person['first_name'])
+print("Last name:", person['last_name'])
+print("Age:", person['age'])
+print("City:", person['city'])
+
+
+output
+
+First name: John
+Last name: Doe
+Age: 30
+City: New York
