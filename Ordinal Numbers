@@ -1,0 +1,32 @@
+code
+
+# List of numbers from 1 to 9
+numbers = list(range(1, 10))
+
+# Loop through the numbers
+for number in numbers:
+    # Determine the correct ordinal ending for each number
+    if number == 1:
+        ending = 'st'
+    elif number == 2:
+        ending = 'nd'
+    elif number == 3:
+        ending = 'rd'
+    else:
+        ending = 'th'
+    
+    # Print the ordinal number with its ending
+    print(f"{number}{ending}")
+
+
+output
+
+1st
+2nd
+3rd
+4th
+5th
+6th
+7th
+8th
+9th
