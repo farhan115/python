@@ -1,0 +1,39 @@
+To remove a key-value pair from a dictionary in Python, you can use the del keyword or the pop() method. Here's an example of how to remove key-value pairs from a dictionary using both methods:
+
+python
+Copy code
+# Creating a dictionary
+person = {
+    'first_name': 'John',
+    'last_name': 'Doe',
+    'age': 30,
+    'city': 'New York',
+}
+
+print("Original dictionary:", person)
+
+# Removing a key-value pair using the 'del' keyword
+del person['city']
+print("Dictionary after removing 'city' using 'del':", person)
+
+# Removing a key-value pair using the 'pop()' method
+age = person.pop('age')
+print("Age removed using 'pop()':", age)
+print("Dictionary after removing 'age' using 'pop()':", person)
+Output:
+
+arduino
+Copy code
+Original dictionary: {'first_name': 'John', 'last_name': 'Doe', 'age': 30, 'city': 'New York'}
+Dictionary after removing 'city' using 'del': {'first_name': 'John', 'last_name': 'Doe', 'age': 30}
+Age removed using 'pop()': 30
+Dictionary after removing 'age' using 'pop()': {'first_name': 'John', 'last_name': 'Doe'}
+In this example, we first create a dictionary called person with four key-value pairs. We then remove the key-value pair with the key 'city' using the del keyword. After that, we remove the key-value pair with the key 'age' using the pop() method, which also returns the removed value. Finally, we print the original and modified dictionaries to see the changes.
+
+When using the del keyword, if the key is not present in the dictionary, a KeyError is raised. To avoid this, you can use the pop() method with a second argument, which is the default value returned if the key is not present:
+
+python
+Copy code
+# Removing a non-existent key using 'pop()' with a default value
+non_existent_value = person.pop('non_existent_key', 'Default value')
+print("Non-existent value removed using 'pop()':", non_existent_value)
