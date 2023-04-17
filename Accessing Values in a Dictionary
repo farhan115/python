@@ -1,0 +1,33 @@
+In Python, you can access values in a dictionary by using the corresponding keys. There are two common ways to access values: using square brackets [] or using the get() method. Here's an example to demonstrate both methods:
+
+python
+Copy code
+# Creating a dictionary
+student = {
+    'name': 'John Doe',
+    'age': 25,
+    'grade': 'A',
+}
+
+# Accessing values using square brackets
+name = student['name']
+print("Name (using square brackets):", name)  # Output: John Doe
+
+# Accessing values using the get() method
+age = student.get('age')
+print("Age (using get() method):", age)  # Output: 25
+When using square brackets, if the key is not present in the dictionary, a KeyError is raised. To avoid this, you can use the get() method, which returns a default value (by default None) if the key is not present. You can also provide a custom default value as a second argument to the get() method:
+
+python
+Copy code
+# Accessing a non-existent key using square brackets (raises KeyError)
+# non_existent_value = student['non_existent_key']  # Uncomment to see the error
+
+# Accessing a non-existent key using the get() method (returns None)
+non_existent_value = student.get('non_existent_key')
+print("Non-existent value:", non_existent_value)  # Output: None
+
+# Accessing a non-existent key using the get() method with a custom default value
+non_existent_value = student.get('non_existent_key', 'Default value')
+print("Non-existent value with custom default:", non_existent_value)  # Output: Default value
+It's recommended to use the get() method when you're not sure if the key is present in the dictionary, as it prevents errors and allows you to handle missing keys gracefully.
